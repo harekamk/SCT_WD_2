@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast News</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+
+}
+
+body {
+    background-color: #cce6f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #ff499e;
+}
+
+.top-stories, .safety-tips, .weather-insights, .local-weather {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.story, .tip, .insight {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.story-icon, .tip-icon {
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.story h3, .tip h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.story p, .tip p, .insight p {
+    font-size: 14px;
+    color: #666;
+}
+
+.story small, .tip small {
+    font-size: 12px;
+    color: #999;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌩 Weather Forecast News</h1>
+        </header>
+
+        <!-- Today's Top Stories Section -->
+        <section class="top-stories">
+            <h2>📅 Today's Top Stories</h2>
+
+            <!-- Story 1 -->
+            <div class="story">
+                <div class="story-icon">❄</div>
+                <div class="story-text">
+                    <h3>Unseasonal Snowfall Hits Northern States</h3>
+                    <p>A cold front brings unexpected heavy snow and icy conditions.</p>
+                    <small>Temperature: -2°C (28°F) | Alerts: Winter Storm Warning</small>
+                </div>
+            </div>
+
+            <!-- Story 2 -->
+            <div class="story">
+                <div class="story-icon">🌀</div>
+                <div class="story-text">
+                    <h3>Tropical Storm Alert in Atlantic Region</h3>
+                    <p>Coastal areas brace for heavy rain and strong winds in 48 hours.</p>
+                    <small>Wind Speeds: 60 mph | Alerts: Hurricane Watch</small>
+                </div>
+            </div>
+
+            <!-- Story 3 -->
+            <div class="story">
+                <div class="story-icon">🔥</div>
+                <div class="story-text">
+                    <h3>Record Heatwave Scorches Southwest</h3>
+                    <p>Ongoing heatwave with temperatures above 110°F. Stay hydrated!</p>
+                    <small>Heat Index: 112°F | Alerts: Excessive Heat Warning</small>
+                </div>
+            </div>
+        </section>
+
+        <!-- Safety Tips Section -->
+        <section class="safety-tips">
+            <h2>🛠 Weather Safety Tips</h2>
+            <div class="tip">
+                <div class="tip-icon">☀</div>
+                <div class="tip-text">
+                    <h3>Stay Cool During a Heatwave</h3>
+                    <p>Limit outdoor activity, hydrate often, and avoid direct sunlight.</p>
+                </div>
+            </div>
+            <div class="tip">
+                <div class="tip-icon">🚗❄</div>
+                <div class="tip-text">
+                    <h3>Driving in Snowy Conditions</h3>
+                    <p>Ensure your car is winter-ready, with snow tires and an emergency kit.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Weather Insights Section -->
+        <section class="weather-insights">
+            <h2>🌎 Weather Insights</h2>
+            <div class="insight">
+                <h3>🔍 Why Storms are Becoming Stronger</h3>
+                <p>How climate change is impacting storm intensity.</p>
+            </div>
+            <div class="insight">
+                <h3>🌐 El Niño’s Impact on Global Weather</h3>
+                <p>Learn how El Niño is affecting weather patterns globally.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

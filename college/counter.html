@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Counter with Buttons</title>
+</head>
+<body>
+
+  <h2>Counter: <span id="counter">0</span></h2>
+
+  <button onclick="increment()">Increment</button>
+  <button onclick="decrement()">Decrement</button>
+  <button onclick="reset()">Reset</button>
+
+  <script>
+    let count = 0;
+
+    function update() {
+      document.getElementById("counter").textContent = count;
+    }
+
+    function increment() {
+      count++;
+      update();
+    }
+
+    function decrement() {
+      count--;
+      update();
+    }
+
+    function reset() {
+      count = 0;
+      update();
+    }
+  </script>
+
+</body>
+</html>
