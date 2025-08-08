@@ -1,2 +1,0 @@
-#given an array of size T,contains binary digits, where 0 represents a biker running to the north. 1 represents a biker running to the south.
-#the task is to count crossing biker in such a way that each pair of crossing biker 
